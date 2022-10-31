@@ -4,7 +4,7 @@
 
 Designed and implemented a software that would plot two of the most popular fractals: Mandelbrot set and Julia set. Fractals are infinity many, self-similar shapes formed by some simple mathematical computations. The computation varies from fractal set to set but are generally based on complex numbers.
 
-###The Mandelbrot set
+##The Mandelbrot set
 
 In mathematics Mandelbrot set is defined as the set of complex numbers C such
 that: Zn+1 = Zn2+C, starting with Z0 = 0 remains bounded when n reach infinity. In other words if for
@@ -26,7 +26,7 @@ arguments; java Fractal Mandelbrot -0.5 0.5 -0.1 1 1000 means the region of inte
 should be from -0.5<real<0.5 and -0.1<complex<1 and for each point you need to do 1000 iterations
 before deciding that it is in the set. Note that Fractal is the name of the application
 
-###The Julia set
+##The Julia set
 
 The Julia set is similar to the Mandelbrot set in that it uses the same equation Zn+1 =
 Zn2+C but Z0 is the point in the complex plane corresponding to the pixel and C is a constant. The rest
